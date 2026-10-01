@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="dtnatures_spirit_fix"
+version="1.0.0"
+displayName="DT Nature's Spirit Redwood Fix"
+authors="you"
+description='''
+Registers the missing dtnatures_spirit:redwood growth logic kit so Redwood trees spawn.
+'''
+
+[[dependencies.dtnatures_spirit_fix]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dtnatures_spirit_fix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dtnatures_spirit_fix]]
+    modId="dynamictrees"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.dtnatures_spirit_fix]]
+    modId="dtnatures_spirit"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
